@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .body-app {
+    @apply relative bg-white border-opacity-0 border-none;
+  }
+  .hero-main {
+    @apply bg-[url('http://localhost/gardeneur/assets/images/hero-section.png')] bg-cover bg-no-repeat bg-fixed bg-center shadow-lg;
+  }
+  .hero-hubon {
+    @apply bg-[url('http://localhost/gardeneur/assets/images/homepage-hero-bg-min.jpg')] bg-cover bg-no-repeat bg-center shadow-lg;
+  }
+
+  header {
+    @apply h-[90px] w-full;
+  }
+  .header-app {
+    @apply flex items-center justify-between h-full px-3 mx-auto text-white transition-all duration-300 xl:px-10;
+  }
+  .header-app.open {
+    @apply bg-primary;
+  }
+  .main-app {
+    /* @apply max-h-screen mx-auto bg-transparent max-w-screen-2xl; */
+    @apply mx-auto bg-transparent;
+  }
+  .page-title {
+    @apply flex flex-col gap-10;
+  }
+  .menu-item-default {
+    @apply flex flex-col justify-center font-semibold cursor-pointer hover:text-primary lg:h-full;
+  }
+  .menu-item {
+    @apply px-3 py-3 menu-item-default lg:py-6;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded;
+  }
+  .btn-primary {
+    @apply text-white bg-primary;
+  }
+  .btn-primary:hover {
+    @apply bg-primary-lighten;
+  }
+  .text-letter {
+    letter-spacing: 3px;
+  }
+}
