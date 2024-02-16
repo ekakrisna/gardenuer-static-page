@@ -24,6 +24,7 @@
 				<div><a href="#" class="menu-item">Home</a></div>
 				<div><a href="#our-mission" class="menu-item">Our Mission</a></div>
 				<div><a href="#upcoming-events" class="menu-item">Upcoming Events</a></div>
+				<div><a href="#what-is-hubon" class="menu-item">What is HubOn</a></div>
 				<div><a href="#hubon" class="menu-item">Join HubOn</a></div>
 			</nav>
 			<nav class="hidden md:flex">
@@ -82,6 +83,7 @@
 				<ul class="my-8 text-black">
 					<li><a href="#" class="menu-item" onclick="closeMobileNavbar()">Home</a></li>
 					<li><a href="#our-mission" class="menu-item" onclick="closeMobileNavbar()">Our Mission</a></li>
+					<li><a href="#what-is-hubon" class="menu-item" onclick="closeMobileNavbar()">What is HubOn</a>
 					<li><a href="#upcoming-events" class="menu-item" onclick="closeMobileNavbar()">Upcoming Events</a>
 					</li>
 					<li><a href="#hubon" class="menu-item" onclick="closeMobileNavbar()">Join HubOn</a></li>
@@ -124,7 +126,7 @@
 		<section class="hero-main">
 			<div class="container flex flex-col items-center justify-center h-screen gap-10 px-4 py-16 mx-auto">
 				<div class="text-center text-white page-title">
-					<h1 class="text-3xl md:text-5xl xl:text-6xl">Gardeneur Marketplace</h1>
+					<h1 class="text-3xl md:text-5xl xl:text-8xl">Gardeneur Marketplace</h1>
 					<div>
 						<a href="https://forms.gle/jNEXbxeZxXsFFseM9" class="uppercase btn btn-primary text-letter"
 							target="_blank">
@@ -134,16 +136,157 @@
 				</div>
 			</div>
 		</section>
+		<section id="upcoming-events">
+			<div
+				class="container grid flex-wrap items-center justify-center grid-cols-1 px-4 py-16 mx-auto lg:grid-cols-2 gap-14">
+				<div class="flex items-center justify-center w-full">
+					<img src="./assets/images/upcomming-events.png" alt="Upcoming events"
+						class="object-cover h-full max-w-xs md:max-w-lg md:size-3/5 ">
+				</div>
+				<div class="space-y-6">
+					<h1 class="text-3xl text-center md:text-left md:text-5xl">Upcoming events
+					</h1>
+					<div class="flex flex-col flex-wrap gap-4 divide-y">
+						<div class="flex items-center gap-4 pt-4">
+							<div class="flex-none hidden lg:block">
+								<p class="font-semibold">April 14, 2024</p>
+								<p>10:00am - 4:00pm</p>
+							</div>
+							<div class="flex-initial">
+								<p class="font-semibold text-primary">Ferry Building</p>
+								<div class="block font-semibold lg:hidden">
+									<p>April 14, 2024 | 10:00am - 4:00pm</p>
+								</div>
+								<p class="line-clamp-2">Gardeneur Marketplace is a destination and a one-stop plant
+									source offering varieties of plants, plant-related things, eco-friendly products and
+									multicultural foods. Our market occupies the front of the building along the
+									Embarcadero.</p>
+							</div>
+							<div>
+								<button class="btn btn-primary" id="openModalBtn" onclick="openModal(1)">
+									Register
+								</button>
+							</div>
+						</div>
+						<div class="flex items-center gap-4 pt-4">
+							<div class="flex-none hidden lg:block">
+								<p class="font-semibold">May 12, 2024</p>
+								<p>10:00am - 4:00pm</p>
+							</div>
+							<div class="flex-initial">
+								<p class="font-semibold text-primary">Ferry Building</p>
+								<div class="block font-semibold lg:hidden">
+									<p>May 12, 2024 | 10:00am - 4:00pm</p>
+								</div>
+								<p class="line-clamp-2">Gardeneur Marketplace is a destination and a one-stop plant
+									source offering varieties of plants, plant-related things, eco-friendly products and
+									multicultural foods. Our market occupies the front of the building along the
+									Embarcadero.</p>
+							</div>
+							<div>
+								<button class="btn btn-primary" id="openModalBtn" onclick="openModal(2)">
+									Register
+								</button>
+							</div>
+						</div>
+						<div class="flex items-center gap-4 pt-4">
+							<div class="flex-none hidden lg:block">
+								<p class="font-semibold">June 9, 2024</p>
+								<p>10:00am - 4:00pm</p>
+							</div>
+							<div class="flex-initial">
+								<p class="font-semibold text-primary">Ferry Building</p>
+								<div class="block font-semibold lg:hidden">
+									<p>June 9, 2024 | 10:00am - 4:00pm</p>
+								</div>
+								<p class="line-clamp-2">Gardeneur Marketplace is a destination and a one-stop plant
+									source offering varieties of plants, plant-related things, eco-friendly products and
+									multicultural foods. Our market occupies the front of the building along the
+									Embarcadero.</p>
+							</div>
+							<div>
+								<button class="btn btn-primary" id="openModalBtn" onclick="openModal(3)">
+									Register
+								</button>
+							</div>
+						</div>
+						<div class="flex items-center gap-4 pt-4">
+							<div class="flex-none hidden lg:block">
+								<p class="font-semibold">July 7, 2024</p>
+								<p>10:00am - 4:00pm</p>
+							</div>
+							<div class="flex-initial">
+								<p class="font-semibold text-primary">Ferry Building</p>
+								<div class="block font-semibold lg:hidden">
+									<p>July 7, 2024 | 10:00am - 4:00pm</p>
+								</div>
+								<p class="line-clamp-2">Gardeneur Marketplace is a destination and a one-stop plant
+									source offering varieties of plants, plant-related things, eco-friendly products and
+									multicultural foods. Our market occupies the front of the building along the
+									Embarcadero.</p>
+							</div>
+							<div>
+								<button class="btn btn-primary" id="openModalBtn" onclick="openModal(4)">
+									Register
+								</button>
+							</div>
+						</div>
+						<div class="flex items-center gap-4 pt-4">
+							<div class="flex-none hidden lg:block">
+								<p class="font-semibold">August 11, 2024</p>
+								<p>10:00am - 4:00pm</p>
+							</div>
+							<div class="flex-initial">
+								<p class="font-semibold text-primary">Ferry Building</p>
+								<div class="block font-semibold lg:hidden">
+									<p>August 11, 2024 | 10:00am - 4:00pm</p>
+								</div>
+								<p class="line-clamp-2">Gardeneur Marketplace is a destination and a one-stop plant
+									source offering varieties of plants, plant-related things, eco-friendly products and
+									multicultural foods. Our market occupies the front of the building along the
+									Embarcadero.</p>
+							</div>
+							<div>
+								<button class="btn btn-primary" id="openModalBtn" onclick="openModal(5)">
+									Register
+								</button>
+							</div>
+						</div>
+						<div class="flex items-center gap-4 pt-4">
+							<div class="flex-none hidden lg:block">
+								<p class="font-semibold">Sept 8, 2024</p>
+								<p>10:00am - 4:00pm</p>
+							</div>
+							<div class="flex-initial">
+								<p class="font-semibold text-primary">Ferry Building</p>
+								<div class="block font-semibold lg:hidden">
+									<p>Sept 8, 2024 | 10:00am - 4:00pm</p>
+								</div>
+								<p class="line-clamp-2">Gardeneur Marketplace is a destination and a one-stop plant
+									source offering varieties of plants, plant-related things, eco-friendly products and
+									multicultural foods. Our market occupies the front of the building along the
+									Embarcadero.</p>
+							</div>
+							<div>
+								<button class="btn btn-primary" id="openModalBtn" onclick="openModal(6)">
+									Register
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="bg-secondary" id="our-mission">
 			<div class="container flex flex-wrap-reverse items-center px-4 py-16 mx-auto lg:flex-nowrap gap-14">
 				<div class="w-full space-y-6">
 					<h1 class="text-3xl text-center md:text-left lg:text-5xl">Our Mission</h1>
-					<p class="text-justify">At Gardeneur, our passion lies in supporting and bringing together diverse
-						talents of Bay Area
-						local makers through our Marketplace events and HubOn transport. Our Marketplace events serve as
-						an opportunity for eco-entrepreneurs, plant growers, specialty food makers, green artisans, and
-						more to showcase their creations, while HubOn helps them fulfill online pre-orders through our
-						50+ pickup locations in the Bay Area.
+					<p class="text-justify">At Gardeneur, our passion lies in bringing together diverse talents of Bay
+						Area local makers through our Marketplace events. Our events serve as an opportunity for
+						eco-entrepreneurs, plant growers, specialty food makers, skilled artisans, and more to showcase
+						their creations. Alongside our events, we offer HubOn transport to help makers reach customers
+						outside their service area with our 50+ pickup locations across the Bay Area.
 						<br>
 						<br>
 						With a flourishing community of over 200+ makers, we believe in fostering sustainability by
@@ -157,7 +300,8 @@
 				</div>
 			</div>
 		</section>
-		<section id="upcoming-events">
+
+		<section id="what-is-hubon">
 			<div
 				class="container grid flex-wrap items-center justify-center grid-cols-1 px-4 py-16 mx-auto lg:grid-cols-2 gap-14">
 				<div class="flex items-center justify-center w-full">
@@ -168,137 +312,25 @@
 					<h1 class="text-3xl text-center md:text-left md:text-5xl">What is HubOn?
 					</h1>
 					<div class="flex flex-col flex-wrap gap-4 divide-y">
-						<p class="text-justify">With HubOn, local makers can now make their online pre-orders available
-							for pickup at any of
-							our 50+ store partners. Many local makers use HubOn to transport delicate goods from
-							birthday cakes to pet foods to plants. Our goal is to enable them to instantly serve the
-							whole Bay Area without opening physical stores.
+						<p class="text-justify">With HubOn, local makers can now make their products
+							available for pickup at any of our 50+ store partners. We transport a variety of delicate
+							goods from birthday cakes to kombucha to house plants, allowing makers to instantly serve
+							the Bay Area without the need for a storefront.
 							<br>
 							<br>
-							Unlike online marketplaces, HubOn only charges a $6.99 transportation fee and does not
-							charge hefty commissions. We aggregate our deliveries through our hub partners reducing CO2
-							emission by 10X compared to door-to-door delivery services. We also hire and train W2
-							employees to ensure that every order is hand delivered with the utmost care and attention.
+							Unlike online marketplaces, HubOn does not charge hefty commissions. We aggregate our
+							deliveries through our hub partners reducing CO2 emission by 10X compared to door-to-door
+							delivery services. We also hire and train W2 employees to ensure that every order is
+							hand-delivered with the utmost care and attention.
 							<br>
 							<br>
 							Take a step towards sustainability and try HubOn transport for FREE today!
 						</p>
-						<!-- <div class="flex items-center gap-4 pt-4">
-							<div class="flex-none hidden lg:block">
-								<p class="font-semibold">May 5, 2025</p>
-								<p>8:30am - 10:10am</p>
-							</div>
-							<div class="flex-initial">
-								<p class="font-semibold text-primary">Upcomming Event 1</p>
-								<div class="block font-semibold lg:hidden">
-									<p>May 5, 2025 | 8:30am - 10:10am</p>
-								</div>
-								<p class="line-clamp-2">Our story started in 2017 with the gratifying
-									experience of
-									selling succulent arrangements
-									at our first-ever plant booth at our son’s school. Our feet were tired from a long
-									day of standing,
-									but we
-									felt
-									good about sharing our knowledge and plants grown in our garden. This stint has
-									inspired us. What if
-									we
-									could make locally grown plants accessible to everyone?</p>
-							</div>
-							<div>
-								<button class="btn btn-primary" id="openModalBtn" onclick="openModal()">
-									Register
-								</button>
-							</div>
-						</div>
-						<div class="flex items-center gap-4 pt-4">
-							<div class="flex-none hidden lg:block">
-								<p class="font-semibold">May 5, 2025</p>
-								<p>8:30am - 10:10am</p>
-							</div>
-							<div class="flex-initial">
-								<p class="font-semibold text-primary">Upcomming Event 2</p>
-								<div class="block font-semibold lg:hidden">
-									<p>May 5, 2025 | 8:30am - 10:10am</p>
-								</div>
-								<p class="line-clamp-2">Our story started in 2017 with the gratifying
-									experience of
-									selling succulent arrangements
-									at our first-ever plant booth at our son’s school. Our feet were tired from a long
-									day of standing,
-									but we
-									felt
-									good about sharing our knowledge and plants grown in our garden. This stint has
-									inspired us. What if
-									we
-									could make locally grown plants accessible to everyone?</p>
-							</div>
-							<div>
-								<button class="btn btn-primary" id="openModalBtn" onclick="openModal()">
-									Register
-								</button>
-							</div>
-						</div>
-						<div class="flex items-center gap-4 pt-4">
-							<div class="flex-none hidden lg:block">
-								<p class="font-semibold">May 5, 2025</p>
-								<p>8:30am - 10:10am</p>
-							</div>
-							<div class="flex-initial">
-								<p class="font-semibold text-primary">Upcomming Event 3</p>
-								<div class="block font-semibold lg:hidden">
-									<p>May 5, 2025 | 8:30am - 10:10am</p>
-								</div>
-								<p class="line-clamp-2">Our story started in 2017 with the gratifying
-									experience of
-									selling succulent arrangements
-									at our first-ever plant booth at our son’s school. Our feet were tired from a long
-									day of standing,
-									but we
-									felt
-									good about sharing our knowledge and plants grown in our garden. This stint has
-									inspired us. What if
-									we
-									could make locally grown plants accessible to everyone?</p>
-							</div>
-							<div>
-								<button class="btn btn-primary" id="openModalBtn" onclick="openModal()">
-									Register
-								</button>
-							</div>
-						</div>
-						<div class="flex items-center gap-4 pt-4">
-							<div class="flex-none hidden lg:block">
-								<p class="font-semibold">May 5, 2025</p>
-								<p>8:30am - 10:10am</p>
-							</div>
-							<div class="flex-initial">
-								<p class="font-semibold text-primary">Upcomming Event 4</p>
-								<div class="block font-semibold lg:hidden">
-									<p>May 5, 2025 | 8:30am - 10:10am</p>
-								</div>
-								<p class="line-clamp-2">Our story started in 2017 with the gratifying
-									experience of
-									selling succulent arrangements
-									at our first-ever plant booth at our son’s school. Our feet were tired from a long
-									day of standing,
-									but we
-									felt
-									good about sharing our knowledge and plants grown in our garden. This stint has
-									inspired us. What if
-									we
-									could make locally grown plants accessible to everyone?</p>
-							</div>
-							<div>
-								<button class="btn btn-primary" id="openModalBtn" onclick="openModal()">
-									Register
-								</button>
-							</div>
-						</div> -->
 					</div>
 				</div>
 			</div>
 		</section>
+
 		<section class="hero-hubon" id="hubon">
 			<div class="container flex flex-col items-center justify-center gap-8 px-4 py-32 mx-auto">
 				<div class="text-center text-white page-title">
@@ -319,11 +351,12 @@
 			</p>
 		</footer>
 	</main>
-	<!-- <div id="myModal" class="fixed inset-0 z-50 hidden overflow-auto bg-gray-800 bg-opacity-75">
+
+	<div id="modal-1" class="fixed inset-0 z-50 hidden overflow-auto bg-gray-800 bg-opacity-75">
 		<div class="flex items-center justify-center h-full">
 			<div class="p-8 m-auto bg-white rounded shadow-lg md:mx-20 lg:w-[1000px]">
 				<div class="text-right">
-					<button id="closeModalBtn" onclick="closeModal()"
+					<button id="closeModalBtn" onclick="closeModal(1)"
 						class="text-gray-600 hover:text-gray-800 focus:outline-none">
 						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg">
@@ -334,33 +367,22 @@
 				</div>
 				<div class="grid items-center justify-between grid-cols-1 gap-4 md:grid-cols-2">
 					<div class="w-full">
-						<img src="./assets/images/event-section.png" alt="gardeneur" class="object-cover w-full h-full">
+						<img src="./assets/images/upcomming-events.png" alt="gardeneur event"
+							class="object-cover w-full h-full">
 					</div>
 					<div>
-						<h2 class="text-2xl font-bold">Upcoming Event 1</h2>
+						<h2 class="text-2xl font-bold">Ferry Building</h2>
 						<div class="mb-4 text-lg font-semibold">
-							<p>May 5, 2025 | 8:30am - 10:10am</p>
+							<p>April 14, 2024 | 10:00am - 4:00pm</p>
 						</div>
-						<p>We’re just weeks away from Gardeneur x BART’s Plantmas 2023 at Notre
-							Dame de Namur
-							University! 🎄Join us
-							for a day of workshops & plant swaps by @seedandsoulclub, gift shopping, and holiday
-							cheer.Save the date
-							and stay tuned for more vendor highlights! ☃️Sunday, December 10, 2023 | 10 AM to 4 PM.🏫
-							Join us inside
-							the university gymnasium at 1500 Ralston Ave, Belmont, CA 94002🎟️ Entrance fee is $3 for
-							advance ticket
-							or $5 (at the door). Vendor applications are now open for plants, eco friendly products, or
-							holiday
-							treats. Both links are in the bio!🌿 Mark your calendars for this exciting Plantmas Market.
-							See you there
-							for a day of plant-filled joy and more!Parking is FREE, only service animals
-							allowed.#Plantmas2023
-							#IndoorPlantMarket #GardeneurEvents #BayAreaPlants #BayAreaMarket #BayAreaPopUp #Belmont
-							#HolidayMarket
-							#ShopLocal</p>
+						<p>
+							Gardeneur Marketplace is a destination and a one-stop plant
+							source offering varieties of plants, plant-related things, eco-friendly products and
+							multicultural foods. Our market occupies the front of the building along the
+							Embarcadero.
+						</p>
 						<div class="flex items-center justify-end mt-8">
-							<a href="https://letshubon.com" target="_blank" class="btn btn-primary">
+							<a href="#" target="_blank" class="btn btn-primary">
 								Register
 							</a>
 						</div>
@@ -368,7 +390,207 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
+
+	<div id="modal-2" class="fixed inset-0 z-50 hidden overflow-auto bg-gray-800 bg-opacity-75">
+		<div class="flex items-center justify-center h-full">
+			<div class="p-8 m-auto bg-white rounded shadow-lg md:mx-20 lg:w-[1000px]">
+				<div class="text-right">
+					<button id="closeModalBtn" onclick="closeModal(2)"
+						class="text-gray-600 hover:text-gray-800 focus:outline-none">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"></path>
+						</svg>
+					</button>
+				</div>
+				<div class="grid items-center justify-between grid-cols-1 gap-4 md:grid-cols-2">
+					<div class="w-full">
+						<img src="./assets/images/upcomming-events.png" alt="gardeneur event"
+							class="object-cover w-full h-full">
+					</div>
+					<div>
+						<h2 class="text-2xl font-bold">Ferry Building</h2>
+						<div class="mb-4 text-lg font-semibold">
+							<p>May 12, 2024 | 10:00am - 4:00pm</p>
+						</div>
+						<p>
+							Gardeneur Marketplace is a destination and a one-stop plant
+							source offering varieties of plants, plant-related things, eco-friendly products and
+							multicultural foods. Our market occupies the front of the building along the
+							Embarcadero.
+						</p>
+						<div class="flex items-center justify-end mt-8">
+							<a href="#" target="_blank" class="btn btn-primary">
+								Register
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-3" class="fixed inset-0 z-50 hidden overflow-auto bg-gray-800 bg-opacity-75">
+		<div class="flex items-center justify-center h-full">
+			<div class="p-8 m-auto bg-white rounded shadow-lg md:mx-20 lg:w-[1000px]">
+				<div class="text-right">
+					<button id="closeModalBtn" onclick="closeModal(3)"
+						class="text-gray-600 hover:text-gray-800 focus:outline-none">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"></path>
+						</svg>
+					</button>
+				</div>
+				<div class="grid items-center justify-between grid-cols-1 gap-4 md:grid-cols-2">
+					<div class="w-full">
+						<img src="./assets/images/upcomming-events.png" alt="gardeneur event"
+							class="object-cover w-full h-full">
+					</div>
+					<div>
+						<h2 class="text-2xl font-bold">Ferry Building</h2>
+						<div class="mb-4 text-lg font-semibold">
+							<p>June 9, 2024 | 10:00am - 4:00pm</p>
+						</div>
+						<p>
+							Gardeneur Marketplace is a destination and a one-stop plant
+							source offering varieties of plants, plant-related things, eco-friendly products and
+							multicultural foods. Our market occupies the front of the building along the
+							Embarcadero.
+						</p>
+						<div class="flex items-center justify-end mt-8">
+							<a href="#" target="_blank" class="btn btn-primary">
+								Register
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-4" class="fixed inset-0 z-50 hidden overflow-auto bg-gray-800 bg-opacity-75">
+		<div class="flex items-center justify-center h-full">
+			<div class="p-8 m-auto bg-white rounded shadow-lg md:mx-20 lg:w-[1000px]">
+				<div class="text-right">
+					<button id="closeModalBtn" onclick="closeModal(4)"
+						class="text-gray-600 hover:text-gray-800 focus:outline-none">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"></path>
+						</svg>
+					</button>
+				</div>
+				<div class="grid items-center justify-between grid-cols-1 gap-4 md:grid-cols-2">
+					<div class="w-full">
+						<img src="./assets/images/upcomming-events.png" alt="gardeneur event"
+							class="object-cover w-full h-full">
+					</div>
+					<div>
+						<h2 class="text-2xl font-bold">Ferry Building</h2>
+						<div class="mb-4 text-lg font-semibold">
+							<p>July 7, 2024 | 10:00am - 4:00pm</p>
+						</div>
+						<p>
+							Gardeneur Marketplace is a destination and a one-stop plant
+							source offering varieties of plants, plant-related things, eco-friendly products and
+							multicultural foods. Our market occupies the front of the building along the
+							Embarcadero.
+						</p>
+						<div class="flex items-center justify-end mt-8">
+							<a href="#" target="_blank" class="btn btn-primary">
+								Register
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-5" class="fixed inset-0 z-50 hidden overflow-auto bg-gray-800 bg-opacity-75">
+		<div class="flex items-center justify-center h-full">
+			<div class="p-8 m-auto bg-white rounded shadow-lg md:mx-20 lg:w-[1000px]">
+				<div class="text-right">
+					<button id="closeModalBtn" onclick="closeModal(5)"
+						class="text-gray-600 hover:text-gray-800 focus:outline-none">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"></path>
+						</svg>
+					</button>
+				</div>
+				<div class="grid items-center justify-between grid-cols-1 gap-4 md:grid-cols-2">
+					<div class="w-full">
+						<img src="./assets/images/upcomming-events.png" alt="gardeneur event"
+							class="object-cover w-full h-full">
+					</div>
+					<div>
+						<h2 class="text-2xl font-bold">Ferry Building</h2>
+						<div class="mb-4 text-lg font-semibold">
+							<p>August 11, 2024 | 10:00am - 4:00pm</p>
+						</div>
+						<p>
+							Gardeneur Marketplace is a destination and a one-stop plant
+							source offering varieties of plants, plant-related things, eco-friendly products and
+							multicultural foods. Our market occupies the front of the building along the
+							Embarcadero.
+						</p>
+						<div class="flex items-center justify-end mt-8">
+							<a href="#" target="_blank" class="btn btn-primary">
+								Register
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-6" class="fixed inset-0 z-50 hidden overflow-auto bg-gray-800 bg-opacity-75">
+		<div class="flex items-center justify-center h-full">
+			<div class="p-8 m-auto bg-white rounded shadow-lg md:mx-20 lg:w-[1000px]">
+				<div class="text-right">
+					<button id="closeModalBtn" onclick="closeModal(6)"
+						class="text-gray-600 hover:text-gray-800 focus:outline-none">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"></path>
+						</svg>
+					</button>
+				</div>
+				<div class="grid items-center justify-between grid-cols-1 gap-4 md:grid-cols-2">
+					<div class="w-full">
+						<img src="./assets/images/upcomming-events.png" alt="gardeneur event"
+							class="object-cover w-full h-full">
+					</div>
+					<div>
+						<h2 class="text-2xl font-bold">Ferry Building</h2>
+						<div class="mb-4 text-lg font-semibold">
+							<p>Sept 8, 2024 | 10:00am - 4:00pm</p>
+						</div>
+						<p>
+							Gardeneur Marketplace is a destination and a one-stop plant
+							source offering varieties of plants, plant-related things, eco-friendly products and
+							multicultural foods. Our market occupies the front of the building along the
+							Embarcadero.
+						</p>
+						<div class="flex items-center justify-end mt-8">
+							<a href="#" target="_blank" class="btn btn-primary">
+								Register
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script>
 		const toggleBtn = document.getElementById('mobile-menu-btn');
@@ -386,21 +608,22 @@
 
 	</script>
 	<script>
-		const myModal = document.getElementById('myModal');
 
-		function openModal() {
+		function openModal(id) {
+			const myModal = document.getElementById(`modal-${id}`);
 			myModal.classList.remove('hidden');
 		}
 
-		function closeModal() {
+		function closeModal(id) {
+			const myModal = document.getElementById(`modal-${id}`);
 			myModal.classList.add('hidden');
 		}
 
-		window.addEventListener('click', function (event) {
-			if (event.target.parentElement === myModal) {
-				myModal.classList.add('hidden');
-			}
-		});
+		// window.addEventListener('click', function (event) {
+		// 	if (event.target.parentElement === myModal) {
+		// 		myModal.classList.add('hidden');
+		// 	}
+		// });
 	</script>
 </body>
 
