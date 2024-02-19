@@ -11,10 +11,10 @@ html {
     @apply relative bg-white border-opacity-0 border-none;
   }
   .hero-main {
-    @apply bg-[url('http://localhost/gardeneur/assets/images/hero-section.png')] bg-cover bg-no-repeat bg-fixed bg-center shadow-lg;
+    @apply bg-[url('https://d28u53bch2yymx.cloudfront.net/assets/images/hero-section.png')] bg-cover bg-no-repeat bg-fixed bg-center shadow-lg;
   }
   .hero-hubon {
-    @apply bg-[url('http://localhost/gardeneur/assets/images/homepage-hero-bg-min.jpg')] bg-cover bg-no-repeat bg-center shadow-lg;
+    @apply bg-[url('https://d28u53bch2yymx.cloudfront.net/assets/images/homepage-hero-bg-min.jpg')] bg-cover bg-no-repeat bg-center shadow-lg;
   }
 
   header {
