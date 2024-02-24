@@ -11,10 +11,12 @@ html {
     @apply relative bg-white border-opacity-0 border-none;
   }
   .hero-main {
-    @apply bg-[url('https://production-gardeneur.s3.us-west-1.amazonaws.com/static/hero-section.webp')] bg-cover bg-no-repeat bg-fixed bg-center shadow-lg;
+    @apply bg-[url('https://production-gardeneur.s3.us-west-1.amazonaws.com/static/hero-section.webp')] bg-no-repeat lg:bg-fixed bg-center shadow-lg;
+    background-size: cover;
   }
   .hero-hubon {
-    @apply bg-[url('https://production-gardeneur.s3.us-west-1.amazonaws.com/static/hubon-homepage.webp')] bg-cover bg-no-repeat bg-center shadow-lg;
+    @apply bg-[url('https://production-gardeneur.s3.us-west-1.amazonaws.com/static/hubon-homepage.webp')] bg-no-repeat lg:bg-fixed bg-center shadow-lg;
+    background-size: cover;
   }
 
   header {
