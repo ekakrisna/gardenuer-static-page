@@ -781,16 +781,12 @@ header {
   height: 1.5rem;
 }
 
-.h-\[90vh\] {
-  height: 90vh;
+.h-\[80vh\] {
+  height: 80vh;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-\[80vh\] {
-  height: 80vh;
 }
 
 .w-6 {
